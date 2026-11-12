@@ -1,0 +1,22 @@
+# Local school source and research are outside this public personal repository.
+/GraphRAG/
+/docs/research/
+
+# Local task state and trial artifacts.
+/.planning/
+/.review/
+/.playwright-mcp/
+/logs/
+/task_plan.md
+/findings.md
+/progress.md
+
+# Local environments and credentials.
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/
