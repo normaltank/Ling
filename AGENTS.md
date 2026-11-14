@@ -2,7 +2,7 @@
 
 ## Coordinator
 
-主代理是用户的唯一统筹入口。收到本项目的开发、维护、规格、排障或审查任务时，自动采用项目技能 `.agents/skills/ling-coordinator/SKILL.md`，先读 `docs/agents/workflow.md`；用户可以直接描述目标，无须逐个指定技能或管理子代理。
+主代理是用户的唯一统筹入口。收到本项目的开发、维护、规格、排障或审查任务时，按 [Matt 工作流](docs/agents/workflow.md)直接读取并使用已安装的通用 Matt 技能，沿用 ReviewProject、DataBase、OpenSource 的接入方式；本项目只维护入口、协作约定和证据，不另设专属阶段技能。用户可以直接描述目标，无须逐个指定技能或管理子代理。
 
 统筹按任务规模主动委派临时子代理，负责需求、任务图、集成、验收和最终汇报。派工前读取 `docs/agents/multi-agent.md`。子代理只执行获派角色，向统筹返回结果。
 
